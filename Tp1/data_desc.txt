@@ -1,0 +1,37 @@
+El archivo principal de datos, winemag-data-130k-v2.csv, contiene información detallada
+que permite un análisis exhaustivo de los vinos y sus características. Cada columna del
+dataset proporciona una pieza clave de información:
+● country: Esta columna especifica el país de origen del vino, lo cual es un factor
+importante, ya que las características del vino pueden variar significativamente
+según la región geográfica.
+● description: La columna de descripción es la más relevante para este estudio, ya que
+se utilizará para realizar un análisis textual detallado. Las descripciones incluyen
+notas de cata detalladas que un sommelier utilizaría para evaluar el vino.
+● designation: Indica el viñedo específico dentro de la bodega, proporcionando un
+nivel adicional de detalle sobre el origen del vino.
+● points: La puntuación refleja la calidad percibida del vino según WineEnthusiast, en
+una escala de 1 a 100. Solo se publican reseñas de vinos con una puntuación de 80
+o más.
+● price: El precio de una botella de vino, que puede ser un indicador de la calidad
+percibida y la accesibilidad del vino.
+● province: Especifica la provincia o estado de origen, que, junto con la columna de
+país, proporciona información geográfica detallada.
+● region_1 y region_2: Estas columnas proporcionan información sobre áreas
+vinícolas específicas, lo cual puede ser crucial para identificar las características
+particulares de los vinos de esas regiones.
+● taster_name y taster_twitter_handle: Proporcionan información sobre el catador
+que realizó la reseña, lo cual puede ser útil para análisis adicionales relacionados con
+la consistencia y estilo de las reseñas.
+● title: El título de la reseña, que a menudo incluye el año de la cosecha,
+proporcionando un contexto temporal.
+● variety: La variedad de uva es una etiqueta clave para este estudio, ya que se
+analizarán las descripciones para entender cómo se describen diferentes
+variedades.
+● winery: La bodega que produjo el vino, que puede ser útil para identificar patrones
+específicos relacionados con productores.
+En resumen, este dataset ofrece una rica fuente de datos textuales y numéricos que pueden
+ser explotados para realizar un análisis exploratorio exhaustivo en el ámbito del análisis de
+vinos. La combinación de técnicas de limpieza, exploración y visualización de datos
+permitirá abordar el desafío de extraer información valiosa y patrones significativos a partir
+de las descripciones textuales de los vinos, proporcionando insights útiles para una variedad
+de aplicaciones en la industria del vino.
